@@ -1,0 +1,13 @@
+public class test {
+public static void main(String[] args) {
+int alter=15;
+
+if(alter <16){
+       System.out.println("Kein Alkohol für dich!");
+}else if(alter==16){
+       System.out.println("Nur Bier und Wein mein Freund");
+}else if(alter==17){
+       System.out.println("Du kommst hier nicht rein!");
+}else{
+       System.out.println("Mach doch was du willst");
+}
